@@ -1,0 +1,9 @@
+streamlit==1.26.0             # For building the user interface
+flask==2.3.3                 # For creating the API backend
+flask-cors==3.0.10           # To handle CORS in the Flask app
+langchain==0.0.308           # For document loaders, embeddings, and chains
+faiss-cpu==1.7.4             # For FAISS vector database
+sentence-transformers==2.2.2 # For generating embeddings
+c-transformers==0.2.24       # For running LLaMA models locally
+python-dotenv==1.0.0         # For loading environment variables
+requests==2.31.0             # For making HTTP requests
